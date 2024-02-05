@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-def read_csv_file(al.csv):
-    df = pd.read_csv(al.csv)
+def read_csv_file('al.csv'):
+    df = pd.read_csv('al.csv')
     return df
 
 
