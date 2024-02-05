@@ -6,7 +6,7 @@ streamlit.write("""
 Density of states*
 """)
 
-streamlitt.image('dos.jpg', caption='Density of states for FCC Aluminium metal')
+streamlit.image('dos.jpg', caption='Density of states for FCC Aluminium metal')
 
 
 df = pandas.read_csv("al.csv")
