@@ -6,5 +6,5 @@ streamlit.write("""
 Band structure*
 """)
  
-df = pandas.read_csv("bands.csv")
+df = pandas.read_csv("pdos.csv")
 streamlit.line_chart(df)
