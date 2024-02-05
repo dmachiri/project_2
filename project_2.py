@@ -3,11 +3,11 @@ import pandas
  
 streamlit.write("""
 # My first app
-Band structure*
+Density of states*
 """)
- 
+
+streamlitt.image('dos.jpg', caption='Density of states for FCC Aluminium metal')
+
+
 df = pandas.read_csv("al.csv")
 streamlit.line_chart(df)
-sstreamlit_echarts(
-    options=option, height="10px",
-)
