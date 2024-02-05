@@ -9,5 +9,5 @@ Band structure*
 df = pandas.read_csv("pdos.csv")
 streamlit.line_chart(df)
 sstreamlit_echarts(
-    options=option, height="400px",
+    options=option, height="10px",
 )
