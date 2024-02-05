@@ -3,7 +3,7 @@ import pandas
  
 streamlit.write("""
 # My first app
-Hello *world!*
+Hello world!*
 """)
  
 df = pandas.read_txt("my_data.txt")
