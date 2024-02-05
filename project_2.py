@@ -3,8 +3,8 @@ import pandas
  
 streamlit.write("""
 # My first app
-Hello world!*
+Band structure*
 """)
  
-df = pandas.read_txt("my_data.txt")
+df = pandas.read_csv("my_data.csv")
 streamlit.line_chart(df)
