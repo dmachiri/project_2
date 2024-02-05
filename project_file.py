@@ -1,11 +1,7 @@
-#importing streamlit library
-
 import streamlit as st
+import pandas as pd
+import numpy as np
 
-from PIL import Image
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 
-image = Image.open('MAPbBr_3.eps')
-
-st.image(image, caption='Band Structure and Density of states for Methyl ammonia lead bromide perovskite')
-
-
+st.line_chart(chart_data)
