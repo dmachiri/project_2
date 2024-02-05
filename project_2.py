@@ -1,10 +1,10 @@
-import streamlit as st
-import pandas as pd
+import streamlit 
+import pandas 
  
-st.write("""
+streamlit.write("""
 # My first app
 Hello *world!*
 """)
  
-df = pd.read_txt("my_data.txt")
-st.line_chart(df)
+df = pandas.read_txt("my_data.txt")
+streamlit.line_chart(df)
