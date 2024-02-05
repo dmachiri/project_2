@@ -7,7 +7,7 @@ streamlit.write("""
 Density of states*
 """)
 
-streamlit.image("dos", caption="Density of states for FCC Aluminium metal", output_format="auto" )
+#streamlit.image("dos", caption="Density of states for FCC Aluminium metal", output_format="auto" )
 #fig = plt.figure() 
 
 df = pandas.read_csv("al.csv")
